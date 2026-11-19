@@ -1,4 +1,3 @@
-# GusteauPlan
 # Gusteau Plan: A Multi-Agent Meal Planning System
 
 Gusteau Plan is an LLM agent system that turns a user's groceries, dietary constraints and allergies into recipes, safety checks and grocery lists. It is built in stages, from a single tool-using agent to a multi-agent graph with planning, routing, replanning and long-term memory. The design rule throughout is that the LLM decides *what* to do while deterministic tools do anything that must be correct: recipe lookup, quantity math and allergen matching.
